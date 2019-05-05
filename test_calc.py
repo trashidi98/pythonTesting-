@@ -1,7 +1,7 @@
 import unittest
 import calc
 
-#SAMPLE TESTING SCRIPT 
+#SAMPLE TESTING SCRIPT
 
 class TestClass(unittest.TestCase):
     def test_add(self):
@@ -15,3 +15,5 @@ class TestClass(unittest.TestCase):
 
     def test_mul(self):
         self.assertEqual(calc.mul(10, 5), 45)
+
+
